@@ -6,11 +6,13 @@ body{
     background-image: url(./image/fundo.jpg);
     background-attachment: fixed;
     background-size: 100%;
+    
 }
 
 nav{
     background-color: black;
     width: 100%;
+    
   
 }
 
@@ -30,8 +32,13 @@ nav{
     width: 20%;
     margin-top: 2rem;
     margin-left: 1rem;
+    
 }
 
+.pesquisa{
+    display: flex;
+    justify-content: flex-end;
+}
 .btn{
     margin-top: 2rem;
     text-align: center;
