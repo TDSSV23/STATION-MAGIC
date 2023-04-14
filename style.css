@@ -65,3 +65,6 @@ h5{
     width: 200px;
 }
 
+.loja:hover{
+    border-bottom: 2px #0078F2 ;
+}
