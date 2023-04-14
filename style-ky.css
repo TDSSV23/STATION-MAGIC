@@ -1,0 +1,151 @@
+.logo{
+    height: 3rem;
+}
+
+body{
+    background-image: url(./image/fundo.jpg);
+    background-size: 100%;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+  
+}
+
+.btn-login{
+    height: 3rem;
+    width: 8rem;
+    background-color: #0078F2;
+    font-family: Inter;
+    font-size: 24px;
+    align-items: center;
+    border: 6px;
+}
+
+.form-control{
+    border-radius: 50px;
+    width: 20%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.btn{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn img{
+    height: 1.2rem;
+}
+
+.slide{
+    margin: 5rem;
+    width: 80rem;
+    border-radius: 20px;
+    size: 80%;
+    border: black 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5{
+
+    font-size: 3rem;
+}
+
+.nav-item{
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.card img{
+    height: auto;
+    width: 200px;
+}
+
+/* PARTE DA KYARA*/
+.container {
+    width: 55%;
+    height: 35rem;
+    background-color: black;
+    margin-top: 70px;
+    border-radius: 30px;
+    padding-left: 50px;
+    
+}
+
+#logo-cadastro {
+    width: 45%;
+    height: 4rem;
+    margin-top: 10px;
+}
+
+#mascote {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 1113px;
+    top: 163px;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.form-nome {
+    width: 46rem;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+}
+
+.form-email {
+    width: 46rem;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+}
+
+.idade, .email, .nome, .nickname{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.form-idade {
+    width: 30rem;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+    width: 5rem;
+}
+
+.senha, .confirmar-senha {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.form-senha {
+    width: 30rem;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+    width: 5rem;
+}
+
+.form-confirmar {
+    width: 30rem;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+    width: 5rem;
+}
+
+
