@@ -82,11 +82,13 @@ h5{
 }
 
 #mascote {
-    position: absolute;
+    display:grid;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-top: -3rem;
     width: 120px;
     height: 120px;
-    left: 1113px;
-    top: 163px;
+
 }
 
 .texto {

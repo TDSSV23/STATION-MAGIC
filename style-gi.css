@@ -86,12 +86,12 @@ h5 {
 }
 
 #personagem {
-    display: ;
+    display: flex;
     width: 120px;
     height: 120px;
-    left: 1113px;
-    top: 163px;
-    margin-top: 3rem;
+    margin-right: 30px;
+    margin-left: auto;
+    margin-top: -3rem;
 }
 
 .login {
@@ -129,7 +129,8 @@ h5 {
 
 .botão {
     background-color: #0078F2;
-    border-radius: px;
+    border-radius: 5px;
+    border: none;
     color: white;
     padding: 15px 35px;
     text-align: center;
