@@ -86,6 +86,25 @@ h5{
     border-bottom: 2px #0078F2 ;
 }
 
+.card-modelo img{
+    width: 20rem;
+}
+
+.card-modelo {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+  
+  .card-modelo figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    
+  }
 /* PARTE DO LUCAS*/
 .lcs-h1{
     color: white;
