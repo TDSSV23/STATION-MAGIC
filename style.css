@@ -3,10 +3,10 @@
 }
 
  body{
-    background-image: url(./image/fundo.jpg);
+    background-image: url(https://t3.ftcdn.net/jpg/03/82/86/70/360_F_382867005_X71FvW77c1hr0Ru8hNbWOMXqxIRShLl5.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: 100%;
 } 
 
 .fundo img{
@@ -210,5 +210,31 @@ footer{
     display: inline-block;
 }
 
+.flex_carrosel {
+    width: 20%;
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5,5px;
 
+}
+
+.cor-h4{
+    width: 13%;
+    height: auto;
+    background-color: rgb(255, 0, 255);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5,5px;
+}
+
+.cor-h4-2{
+    width: 13%;
+    height: auto;
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5,5px;
+}
     
