@@ -2,6 +2,17 @@
     height: 3rem;
 }
 
+.fundo img {
+    position: fixed;
+    filter: blur(5px);
+    z-index: -1;
+
+}
+body{
+    background-image: url(./image/fundo.jpg);
+    background-size: 100%;
+}
+
 body{
     background-image: url(./image/fundo.jpg);
     background-size: 100%;
