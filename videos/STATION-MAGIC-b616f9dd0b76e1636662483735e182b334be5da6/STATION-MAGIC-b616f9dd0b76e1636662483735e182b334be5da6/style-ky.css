@@ -1,0 +1,194 @@
+.logo{
+    height: 3rem;
+}
+
+.fundo img {
+    position: fixed;
+    filter: blur(5px);
+    z-index: -1;
+
+}
+body{
+    background-image: url(./image/fundo.jpg);
+    background-size: 100%;
+}
+
+body{
+    background-image: url(./image/fundo.jpg);
+    background-size: 100%;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+  
+}
+
+.btn-login{
+    height: 3rem;
+    width: 8rem;
+    background-color: #0078F2;
+    font-family: Inter;
+    font-size: 24px;
+    align-items: center;
+    border: 6px;
+}
+
+.form-control{
+    border-radius: 50px;
+    width: 20%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.btn{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn img{
+    height: 1.2rem;
+}
+
+.slide{
+    margin: 5rem;
+    width: 80rem;
+    border-radius: 20px;
+    size: 80%;
+    border: black 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5{
+
+    font-size: 3rem;
+}
+
+.nav-item{
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.card img{
+    height: auto;
+    width: 200px;
+}
+
+/* PARTE DA KYARA*/
+.container {
+    width: 60%;
+    height: auto;
+    background-color: rgba(0, 0, 0);
+    margin-top: 3rem;
+    padding-bottom: .5rem;
+    border-radius: 30px;
+    padding-left: 40px;
+    
+}
+
+#logo-cadastro {
+    width: 45%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#mascote {
+    display: flex;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-top: -3rem;
+    width: 120px;
+    height: 120px;
+
+}
+
+.texto {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.idade, .email, .nome, .nickname, .senha, .confirmar-senha, .campo{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.idade {
+    width: 10%;
+}
+
+.email {
+    width: 75%;
+}
+
+
+.form-senha {
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+    
+
+}
+
+.form-confirmar {
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+
+}
+
+
+.form-idade {
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+
+}
+
+.form-nome {
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+}
+
+.form-email {
+    width: 100%;
+    background-color: rgb(82, 80, 80);
+    border-radius: 10px; 
+    color: white;
+}
+
+.botão {
+    background-color: #0078F2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.btn-cadastro {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
