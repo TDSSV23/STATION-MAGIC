@@ -69,7 +69,7 @@ h5{
     width: 60%;
     height: auto;
     background-color: rgba(0, 0, 0);
-    margin-top: 8rem;
+    margin-top: 3rem;
     padding-bottom: .5rem;
     border-radius: 30px;
     padding-left: 40px;
@@ -94,7 +94,7 @@ h5{
 
 .texto {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 3px;
     font-size: 28px;
     font-weight: bold;
     color: white;
@@ -102,23 +102,19 @@ h5{
 }
 
 .idade, .email, .nome, .nickname, .senha, .confirmar-senha, .campo{
-    width: 95%;
     margin-top: 10px;
     font-size: 18px;
     color: white;
 }
 
-.senha, .confirmar-senha{
-    width: 50%;
+.idade {
+    width: 10%;
 }
 
-.idade{
-    width: 15%;
-}
-
-.nickname{
+.email {
     width: 75%;
 }
+
 
 .form-senha {
     width: 100%;
@@ -160,7 +156,27 @@ h5{
     color: white;
 }
 
+.botão {
+    background-color: #0078F2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
+.btn-cadastro {
+    color: white;
+    text-decoration: none;
+}
 
 
 
