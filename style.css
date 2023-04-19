@@ -52,7 +52,7 @@ nav{
 
 .slide{
     margin: 5rem;
-    width: 80rem;
+    width: 70rem;
     border-radius: 20px;
     size: 80%;
     border: black 5px;
@@ -61,10 +61,14 @@ nav{
 }
 
 h5{
-
     font-size: 3rem;
 }
 
+.carousel-item img{
+    border-radius: 50px;
+    height: 20rem;
+    object-fit: cover;
+}
 .nav-item{
     margin-left: 2rem;
     text-align: center;
