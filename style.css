@@ -2,28 +2,21 @@
     height: 3rem;
 }
 
-body{
+ body{
     background-image: url(./image/fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
-}
+} 
 
 .fundo img{
-    position: fixed;
+    /* position: fixed; */
     filter: blur(5px);
-    
-    
 }
 
 nav{
     background-color: black;
     width: 100%;
-
-    overflow: hidden;
-    position: relative;
-    
-  
 }
 
 .btn-login{
@@ -87,13 +80,15 @@ h5{
 }
 
 .card-modelo img{
-    width: 20rem;
+    width: 18rem;
+
 }
 
 .card-modelo {
     display: inline-block;
     position: relative;
     text-align: center;
+    margin: 1rem;
   }
   
   .card-modelo figcaption {
@@ -105,6 +100,36 @@ h5{
     text-shadow: 0px 0px 5px black;
     
   }
+
+.titulo{
+    color: white;
+    font-family: Inter;
+    margin-left: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* PARTE DO LUCAS*/
 .lcs-h1{
     color: white;
