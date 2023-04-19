@@ -145,7 +145,7 @@ h5 {
 
 
 
-/* PARTE DO LUCAS*/
+/* FIFA.html*/
 .lcs-h1 {
     color: white;
     text-align: center;
@@ -188,7 +188,17 @@ h5 {
     text-align: center;
 }
 
+.text-align{
+    width: 100%;
+    display: flex;
+    margin-left: 1rem;
+    margin-right: auto;
+    font-weight: 12rem;
+}
 span{
     width: 40rem;
+    font-weight: 100;
     
+
 }
+
