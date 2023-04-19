@@ -6,7 +6,7 @@
     background-image: url(./image/fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: 100%;
 } 
 
 .fundo img{
@@ -46,7 +46,7 @@ nav{
 .form-control{
     border-radius: 50px;
     width: 20%;
-    margin-top: 5rem;
+    margin-top: rem;
     margin-left: 1rem;
     
 }
