@@ -89,15 +89,25 @@ h5{
     position: relative;
     text-align: center;
     margin: 1rem;
+    box-shadow: 2% white;
+    
+  box-shadow: 0px 1px 20px 1px rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  
+  }
+
+  .card-modelo img:hover{
+    filter: brightness(40%) blur(5px);
   }
   
   .card-modelo figcaption {
     position: absolute;
-    top: 145px;
-    right: 20px;
+    display: block;
+    top: 250px;
+    right: 60px;
     font-size: 40px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-shadow: 0px 0px 5px black;
+    line-height: 10px;
     
   }
 
