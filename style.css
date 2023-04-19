@@ -92,12 +92,9 @@ h5{
 .card-modelo {
     display: inline-block;
     position: relative;
-    text-align: center;
     margin: .4rem;
     box-shadow: 2% white;
-    
-  
-  
+    vertical-align: top;
   }
 
   .card-modelo img:hover{
@@ -117,6 +114,7 @@ h5{
     font-weight: bold;
     font-size: 1.5rem;
 }
+
 
 
 
@@ -167,4 +165,27 @@ h5{
         text-align: center;
     }
 
+
+    /*PARTE FELIPE*/
+    .flex_desconto {
+        width: 20%;
+        height: auto;
+        background-color: blue;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5,5px;
+    }
+
+    .flex_free {
+        width: 20%;
+        height: auto;
+        background-color: green;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5,5px;
+    }
+
+.container{
+    vertical-align: top;
+}
     
