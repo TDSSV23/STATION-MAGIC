@@ -3,7 +3,7 @@
 }
 
  body{
-    background-image: url(https://t3.ftcdn.net/jpg/03/82/86/70/360_F_382867005_X71FvW77c1hr0Ru8hNbWOMXqxIRShLl5.webp);
+    background-image: url(./image/fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -46,7 +46,7 @@ nav{
 .form-control{
     border-radius: 50px;
     width: 20%;
-    margin-top: rem;
+    margin-top: 5rem;
     margin-left: 1rem;
     
 }
