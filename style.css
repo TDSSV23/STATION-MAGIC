@@ -7,6 +7,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+    margin: 0px;
+
 }
 
 .fundo img {
@@ -30,20 +32,20 @@ body {
 nav {
     background-color: black;
     width: 100%;
-
+    margin: 0;
 }
 
 .btn-login {
     height: 3rem;
     width: 8rem;
-    margin: 0px;
+    margin-top: 0px;
     background-color: #0078F2;
     font-family: Inter;
     font-size: 24px;
     align-items: center;
     border: 6px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
 
 }
 
