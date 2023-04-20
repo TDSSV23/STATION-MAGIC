@@ -1,17 +1,20 @@
-.logo{
+.logo {
     height: 3rem;
 }
 
- body{
+body {
     background-image: url(./image/fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-} 
+}
 
-.fundo img{
-    /* position: fixed; */
+.fundo img {
+    position: fixed;
     filter: blur(5px);
+    filter: brightness(10);
+    z-index: -1;
+
 }
 
 .barra {
@@ -22,15 +25,15 @@
     right: 0;
     height: 35px;
     z-index: 2;
-  }
-
-nav{
-    background-color: black;
-    width: 100%;
-    
 }
 
-.btn-login{
+nav {
+    background-color: black;
+    width: 100%;
+
+}
+
+.btn-login {
     height: 3rem;
     width: 8rem;
     margin: 0px;
@@ -41,30 +44,30 @@ nav{
     border: 6px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
-.form-control{
+.form-control {
     border-radius: 50px;
     width: 20%;
     margin-top: 5rem;
     margin-left: 1rem;
-    
+
 }
 
-.btn{
+.btn {
     margin-top: 5rem;
     text-align: center;
     background-color: white;
 }
 
-.btn img{
+.btn img {
     height: 1.2rem;
     color: aqua;
-    
+
 }
 
-.slide{
+.slide {
     margin: 5rem;
     width: 70rem;
     height: auto;
@@ -76,29 +79,31 @@ nav{
     /* height: 20rem; */
 }
 
-h5{
+h5 {
     font-size: 3rem;
 }
 
-.carousel-item img{
+.carousel-item img {
     border-radius: 50px;
     height: 30rem;
-    object-fit: cover;}
-.nav-item{
+    object-fit: cover;
+}
+
+.nav-item {
     margin-left: 2rem;
     text-align: center;
 }
 
-.card img{
+.card img {
     height: auto;
     width: 200px;
 }
 
-.loja:hover{
-    border-bottom: 2px #0078F2 ;
+.loja:hover {
+    border-bottom: 2px #0078F2;
 }
 
-.card-modelo img{
+.card-modelo img {
     width: 14rem;
     height: 22rem;
     object-fit: cover;
@@ -110,18 +115,18 @@ h5{
     margin: .4rem;
     box-shadow: 2% white;
     vertical-align: top;
-  }
+}
 
-  .card-modelo img:hover{
+.card-modelo img:hover {
     filter: brightness(40%) blur(5px);
     box-shadow: 0px 1px 20px 1px rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-  }
-  
-.card-modelo figcaption{
+}
+
+.card-modelo figcaption {
     color: white;
 }
 
-.titulo{
+.titulo {
     color: white;
     font-family: Inter;
     margin-left: 6rem;
@@ -131,82 +136,122 @@ h5{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* PARTE DO LUCAS*/
-.lcs-h1{
+/* FIFA.html*/
+.lcs-h1 {
     color: white;
     text-align: center;
-    }
-    .fifa{
-        margin-top: 6rem;
-        height: 263px;
-        align-items: end;
-        margin-left: 2rem;
-    }
-    
-    .fifa-video{
-        width: 683px;
-        height: 520px;
-    }
-    .midia{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    
-    }
-    .lc{
-        color: white;
-        font-size: 24px;
-        margin-left: 2rem;
-        text-align: center;
-    }
+    font-weight: 1000;
+}
+
+.fifa {
+    margin-top: 6rem;
+    height: 263px;
+    align-items: end;
+    margin-left: 2rem;
+}
+
+.fifa-video {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.img-fifa {
+    width: 40rem;
+    object-fit: contain;
+    margin-top: -174px;
+    margin-left: 1rem;
+}
+
+.midia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.lc {
+    color: white;
+    font-size: 18px;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.text-align {
+    width: 100%;
+    display: flex;
+    margin-left: 1rem;
+    margin-right: auto;
+    font-weight: 12rem;
+}
+
+span {
+    width: 40rem;
+    font-weight: 100;
 
 
-    /*PARTE FELIPE*/
-    .flex_desconto {
-        width: 20%;
-        height: auto;
-        background-color: blue;
-        text-align: center;
-        border-radius: 10px;
-        padding: 5,5px;
-    }
+}
 
-    .flex_free {
-        width: 20%;
-        height: auto;
-        background-color: green;
-        text-align: center;
-        border-radius: 10px;
-        padding: 5,5px;
-    }
+.lcs-h1 {
+    color: white;
+    text-align: center;
+}
 
-.container{
+.fifa {
+    margin-top: 6rem;
+    height: 263px;
+    align-items: end;
+    margin-left: 2rem;
+}
+
+.fifa-video {
+    width: 683px;
+    height: 520px;
+}
+
+.midia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.lc {
+    color: white;
+    font-size: 24px;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+
+/*PARTE FELIPE*/
+.flex_desconto {
+    width: 20%;
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5, 5px;
+}
+
+.flex_free {
+    width: 20%;
+    height: auto;
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5, 5px;
+}
+
+.container {
     vertical-align: top;
 }
 
 
 /*FOOTER*/
-footer{
+footer {
     width: 100%;
     height: auto;
     background-color: black;
@@ -214,7 +259,7 @@ footer{
     font-size: 20px;
 }
 
-.logos{
+.logos {
     filter: invert(100);
     width: 30px;
     margin-left: 20%;
@@ -228,25 +273,24 @@ footer{
     background-color: blue;
     text-align: center;
     border-radius: 10px;
-    padding: 5,5px;
+    padding: 5, 5px;
 
 }
 
-.cor-h4{
+.cor-h4 {
     width: 13%;
     height: auto;
     background-color: rgb(255, 0, 255);
     text-align: center;
     border-radius: 10px;
-    padding: 5,5px;
+    padding: 5, 5px;
 }
 
-.cor-h4-2{
+.cor-h4-2 {
     width: 13%;
     height: auto;
     background-color: green;
     text-align: center;
     border-radius: 10px;
-    padding: 5,5px;
+    padding: 5, 5px;
 }
-    
