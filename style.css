@@ -35,20 +35,30 @@ nav {
     margin: 0;
 }
 
-.btn-login {
+.btn-login{
     height: 3rem;
     width: 8rem;
     margin-top: 0px;
     background-color: #0078F2;
     font-family: Inter;
     font-size: 24px;
-    align-items: center;
-    border: 6px;
+    vertical-align: middle;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: auto;
     margin-left: auto;
-    margin-right: 0;
-
+    vertical-align: middle;
 }
 
+.btn-login p{
+    margin: auto;
+    
+}
+
+a{
+    text-decoration: none;
+}
 .form-control {
     border-radius: 50px;
     width: 20%;
