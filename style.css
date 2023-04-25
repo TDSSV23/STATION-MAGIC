@@ -311,6 +311,7 @@ body {
 }
 
 .fundo img {
+    position: fixed;
     filter: blur(5px);
     filter: brightness(10);
     z-index: -1;
@@ -396,8 +397,9 @@ h5 {
 .linha{
     margin-top: 1rem;
     display: flex;
-
-    margin: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
     
 }
 
@@ -410,12 +412,9 @@ h5 {
 .card-modelo {
     margin: .4rem;
     box-shadow: 2% white;
-    vertical-align: top;
-}
-
-.card-modelo img:hover {
-    filter: brightness(40%) blur(5px);
-    box-shadow: 0px 1px 20px 1px rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    display: block;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .card-modelo figcaption {
