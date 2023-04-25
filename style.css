@@ -298,3 +298,300 @@ footer {
     border-radius: 10px;
     padding: 5, 5px;
 }
+
+
+/* RESPONSIVIDADE*/
+@media screen and (max-width: 1200px) {
+
+body {
+    background-image: url(./image/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0px;
+}
+
+.fundo img {
+    filter: blur(5px);
+    filter: brightness(10);
+    z-index: -1;
+
+}
+
+.barra {
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 35px;
+    z-index: 2;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.btn-login {
+    height: 3rem;
+    width: 8rem;
+    margin-top: 0px;
+    background-color: #0078F2;
+    font-family: Inter;
+    font-size: 24px;
+    align-items: center;
+    border: 6px;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+.form-control {
+    border-radius: 50px;
+    width: 20%;
+    margin-top: 5rem;
+    margin-left: 1rem;
+
+}
+
+.btn {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: white;
+}
+
+.slide {
+    margin: auto;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    size: 80%;
+    border: black 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    /* height: 20rem; */
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+.carousel-item img {
+    border-radius: 50px;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.nav-item {
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.card img {
+    height: auto;
+    width: 200px;
+}
+
+.linha{
+    margin-top: 1rem;
+    display: flex;
+
+    margin: auto;
+    
+}
+
+.card-modelo img {
+    width: 14rem;
+    height: 22rem;
+    object-fit: cover;
+}
+
+.card-modelo {
+    margin: .4rem;
+    box-shadow: 2% white;
+    vertical-align: top;
+}
+
+.card-modelo img:hover {
+    filter: brightness(40%) blur(5px);
+    box-shadow: 0px 1px 20px 1px rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.card-modelo figcaption {
+    color: white;
+}
+
+.titulo {
+    color: white;
+    font-family: Inter;
+    margin-left: 6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* FIFA.html*/
+.lcs-h1 {
+    color: white;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.fifa {
+    margin-top: 6rem;
+    height: 263px;
+    align-items: end;
+    margin-left: 2rem;
+}
+
+.fifa-video {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.img-fifa {
+    width: 40rem;
+    object-fit: contain;
+    margin-top: -174px;
+    margin-left: 1rem;
+}
+
+.midia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.lc {
+    color: white;
+    font-size: 18px;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.text-align {
+    width: 100%;
+    display: flex;
+    margin-left: 1rem;
+    margin-right: auto;
+    font-weight: 12rem;
+}
+
+span {
+    width: 40rem;
+    font-weight: 100;
+
+
+}
+
+.lcs-h1 {
+    color: white;
+    text-align: center;
+}
+
+.fifa {
+    margin-top: 6rem;
+    height: 263px;
+    align-items: end;
+    margin-left: 2rem;
+}
+
+.fifa-video {
+    width: 683px;
+    height: 520px;
+}
+
+.midia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.lc {
+    color: white;
+    font-size: 24px;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+
+/*PARTE FELIPE*/
+.flex_desconto {
+    width: 20%;
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5, 5px;
+}
+
+.flex_free {
+    width: 20%;
+    height: auto;
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5, 5px;
+}
+
+.container {
+    vertical-align: top;
+}
+
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 3rem;
+
+}
+
+.logos {
+    filter: invert(100);
+    width: 30px;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.flex_carrosel {
+    width: 20%;
+    height: auto;
+    background-color: blue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5, 5px;
+
+}
+
+.cor-h4 {
+    width: 13%;
+    height: auto;
+    background-color: rgb(255, 0, 255);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5, 5px;
+}
+
+.cor-h4-2 {
+    width: 13%;
+    height: auto;
+    background-color: green;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5, 5px;
+}
+
+
+}
