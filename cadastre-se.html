@@ -74,14 +74,14 @@
     <img src="./image/mascote.png" id="mascote" alt="Mascote do site">
     <h1 class="texto">CADASTRE-SE</h1>
 <!-- FORMULÁRIO DE CADASTRO -->
-    <form class="campo">
+    <form class="campo" action="./login.html">
       <label for="nome">
         <h6 class="nome">NOME:</h6>
-        <input type="text" class="form-nome">
+        <input type="text" class="form-nome" required>
       </label><br>
       <label for="email">
         <h6 class="email">E-MAIL:</h6>
-        <input type="email" class="form-email">
+        <input type="email" class="form-email" required>
       </label><br>
       <label class="idade" for="idade">
         <h6 class="idade">IDADE:</h6>
@@ -89,25 +89,26 @@
       </label>
       <label class="nickname" for="nickname">
         <h6 class="nickname">NICKNAME:</h6>
-        <input type="type" class="form-nome">
+        <input type="type" class="form-nome" required>
       </label>
       <br>
       <label class="senha" for="senha">
         <h6 class="senha">SENHA:</h6>
-        <input type="password" class="form-senha">
+        <input type="password" class="form-senha" required>
       </label>
       <label class="c-senha" for="confirmar-senha">
         <h6 class="confirmar-senha">CONFIRMAR SENHA:</h6>
-        <input type="password" class="form-confirmar">
+        <input type="password" class="form-confirmar" required>
       </label>
+      <input class="botão btn-cadastro" value="CRIAR CONTA" type="submit">
     </form>
     <!-- LINK LOGIN -->
-    <a href="login.html" class="btn-cadastro"><button class="botão">CRIAR CONTA</button> </a>
+
   </div>
 <!-- FOOTER -->
   <footer>
     <p>Contato: (99) 99999 9999</p>
-    <img src="./image/twitter.png" alt="twitter" class="logos"/>
+    <img src="./image/twit ter.png" alt="twitter" class="logos"/>
     <img src="./image/facebook.png" alt="facebook" class="logos"/>
     <img src="./image/instagram.png" alt="instagram" class="logos"/>
     <img src="./image/youtube.png" alt="youtube" class="logos"/>

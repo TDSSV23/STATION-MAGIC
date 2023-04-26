@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Sigmar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Sigmar&display=swap');
+
 .logo {
     height: 3rem;
 }
@@ -54,25 +55,25 @@ nav {
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
     text-decoration: none;
-  }
-  
-  .btn-login:hover {
+}
+
+.btn-login:hover {
     background: rgb(61, 106, 255);
     box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
     text-decoration: none;
-  }
-  
-  .btn-login:hover::before {
+}
+
+.btn-login:hover::before {
     -webkit-animation: sh02 0.5s 0s linear;
     -moz-animation: sh02 0.5s 0s linear;
     animation: sh02 0.5s 0s linear;
     text-decoration: none;
-  }
-  
-  .btn-login::before {
+}
+
+.btn-login::before {
     content: '';
     display: block;
     width: 0px;
@@ -89,31 +90,32 @@ nav {
     -o-transform: skewX(-20deg);
     transform: skewX(-20deg);
     text-decoration: none;
-  }
-  
-  @keyframes sh02 {
+}
+
+@keyframes sh02 {
     from {
-      opacity: 0;
-      left: 0%;
+        opacity: 0;
+        left: 0%;
     }
-  
+
     50% {
-      opacity: 1;
+        opacity: 1;
     }
-  
+
     to {
-      opacity: 0;
-      left: 100%;
+        opacity: 0;
+        left: 100%;
     }
-  }
-  
-  .btn-login:active {
+}
+
+.btn-login:active {
     box-shadow: 0 0 0 0 transparent;
     -webkit-transition: box-shadow 0.2s ease-in;
     -moz-transition: box-shadow 0.2s ease-in;
     transition: box-shadow 0.2s ease-in;
     text-decoration: none;
-  }
+}
+
 .form-control {
     border-radius: 50px;
     width: 20%;
@@ -364,11 +366,11 @@ footer {
 }
 
 
-.preco{
+.preco {
     display: flex;
 }
 
-.flex_preco{
+.flex_preco {
     margin-left: auto;
     margin-right: 1rem;
     font-family: 'Braah One', sans-serif;
@@ -385,4 +387,3 @@ footer {
 /*RESPONSIVIDADE -- RESPONSIVIDADE -- RESPONSIVIDADE -- RESPONSIVIDADE*/
 
 /*RESPONSIVIDADE -- RESPONSIVIDADE -- RESPONSIVIDADE -- RESPONSIVIDADE*/
-
