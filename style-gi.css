@@ -68,7 +68,6 @@ login.html*/
     color: white;
     padding: 15px 35px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 12px;
     margin: 2rem 0;
@@ -77,6 +76,7 @@ login.html*/
     margin-right: auto;
     
 }
+
 
 body{
     font-family: 'Inter';
