@@ -544,6 +544,13 @@ span {
     vertical-align: top;
 }
 
+.flex_preco {
+
+}
+
+.preco {
+    display: block;
+}
 
 /*FOOTER*/
 footer {
