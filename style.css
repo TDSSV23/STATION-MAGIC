@@ -232,9 +232,11 @@ footer {
     width: 100%;
     height: auto;
     background-color: black;
+    position: initial;
     color: white;
     font-size: 20px;
     margin-top: 3rem;
+    display: inline-block;
 
 }
 
