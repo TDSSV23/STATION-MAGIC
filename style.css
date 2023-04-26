@@ -20,7 +20,6 @@ body {
 }
 
 .barra {
-
     position: fixed;
     top: 0px;
     left: 0;
@@ -74,7 +73,6 @@ nav {
     width: 70rem;
     height: auto;
     border-radius: 20px;
-    size: 80%;
     border: black 5px;
     margin-left: auto;
     margin-right: auto;
@@ -115,7 +113,7 @@ h5 {
     display: inline-block;
     position: relative;
     margin: .4rem;
-    box-shadow: 2% white;
+    box-shadow: 2px white;
     vertical-align: top;
 }
 
@@ -186,7 +184,7 @@ h5 {
     display: flex;
     margin-left: 1rem;
     margin-right: auto;
-    font-weight: 12rem;
+    font-weight: 10;
 }
 
 span {
@@ -300,7 +298,10 @@ footer {
 }
 
 
-/* RESPONSIVIDADE*/
+/* RESPONSIVIDADE*//* RESPONSIVIDADE*//* RESPONSIVIDADE*/
+/* RESPONSIVIDADE*//* RESPONSIVIDADE*//* RESPONSIVIDADE*/
+/* RESPONSIVIDADE*//* RESPONSIVIDADE*//* RESPONSIVIDADE*/
+/* RESPONSIVIDADE*//* RESPONSIVIDADE*//* RESPONSIVIDADE*/
 @media screen and (max-width: 1200px) {
 
 body {
@@ -366,7 +367,6 @@ nav {
     width: auto;
     height: auto;
     border-radius: 20px;
-    size: 80%;
     border: black 5px;
     margin-left: auto;
     margin-right: auto;
@@ -479,7 +479,7 @@ h5 {
     display: flex;
     margin-left: 1rem;
     margin-right: auto;
-    font-weight: 12rem;
+    font-weight: 100;
 }
 
 span {
