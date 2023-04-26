@@ -17,7 +17,7 @@
     width: 37%;
     height: 20rem;
     object-fit: contain;
-    margin-top: 2rem;
+    margin-top: -26px;
     margin-left: 83px;
 }
 
@@ -39,6 +39,7 @@
     font-size: 18px;
     font-weight: 300;
     margin-left: 83px;
+    margin-top: -170px;
 }
 
 h6 {
@@ -53,6 +54,7 @@ h6 {
     border-radius: 10px;
     font-family: 'Sigmar';
 }
+
 .flex_jogobase {
     display: -webkit-box;
     display: -webkit-flex;
@@ -67,3 +69,33 @@ h6 {
     align-items: center;
 }
 
+button {
+    border: 2px solid #ff000082;
+    background-color: #ff000082;
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 12em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+    text-align: center;
+}
+
+button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #a90a0a;
+}
+
+
+.cmp {
+    margin-left: -175px;
+}
+
+.but {
+    margin-left: 250px;
+}
