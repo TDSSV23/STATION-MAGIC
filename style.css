@@ -290,7 +290,7 @@ footer {
     margin-top: 8px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -309,7 +309,7 @@ a{
         filter: brightness(10);
         z-index: -1;
         height: 102%;
-    
+
     }
 
     body {
@@ -319,7 +319,7 @@ a{
         background-position: center;
         background-size: cover;
         margin-bottom: -5rem;
-    
+
     }
 
     .slide {
@@ -341,24 +341,29 @@ a{
         object-fit: cover;
     }
 
-    .linha{
+    .linha {
         margin-top: 1rem;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        
-        
+
+
     }
-    
+
+    .card-modelo img {
+        width: 14rem;
+        height: 22rem;
+        object-fit: cover;
+    }
+
     .card-modelo {
+        display: inline-block;
+        position: relative;
         margin: .4rem;
-        box-shadow: 2% white;
-        display: block;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        width: 15rem;
+        box-shadow: 2px white;
+        vertical-align: top;
     }
-    
+
     .card-modelo figcaption {
         color: white;
     }
@@ -372,8 +377,46 @@ a{
         margin-top: 3rem;
     }
 
-    .logos{
+    .logos {
         margin-left: 1rem;
     }
+
+}
+
+@media screen and (max-width: 550px) {
+    .form-control {
+        border-radius: 50px;
+        width: 20%;
+        margin-top: 7rem;
+        margin-left: 1rem;
+
+    }
+
+    .btn {
+        margin-top: 7rem;
+        text-align: center;
+        background-color: white;
+    }
+
+    .card-modelo img {
+        width: 14rem;
+        height: 22rem;
+        object-fit: cover;
+    }
+
+    .card-modelo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1rem;
+        box-shadow: 2px white;
+        vertical-align: top;
+    }
+
+    .card-modelo a{
+        width: 15rem;
+        margin: auto;
+    }
+
 
 }
