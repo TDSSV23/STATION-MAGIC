@@ -82,3 +82,26 @@ body{
     font-family: 'Inter';
 }
 
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 80%;
+        height: auto;
+        background-color: rgba(0, 0, 0);
+        margin-top: 8rem;
+        margin-bottom: 3rem;
+        padding-bottom: .5rem;
+        border-radius: 30px;
+        padding-left: 40px;
+        
+    }
+
+    #personagem {
+        display: flex;
+        width: 60px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: auto;
+        margin-top: 0rem;
+    }
+    
+}

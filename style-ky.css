@@ -113,3 +113,34 @@
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 1200px) {
+    #mascote {
+        display: flex;
+        margin-left: auto;
+        margin-right: 1rem;
+        margin-top: 0rem;
+        width: 60px;
+        height: auto;
+    
+    }
+
+    .container {
+        width: 80%;
+        height: auto;
+        background-color: rgba(0, 0, 0);
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding-bottom: .5rem;
+        border-radius: 30px;
+        padding-left: 40px;
+        
+    }
+    
+    #logo-cadastro {
+        width: 45%;
+        height: auto;
+        margin-top: 10px;
+    }
+}
+
