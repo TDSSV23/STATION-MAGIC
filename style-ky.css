@@ -142,5 +142,9 @@
         height: auto;
         margin-top: 10px;
     }
+
+    .nickname{
+        margin-left: 1rem;
+    }
 }
 
