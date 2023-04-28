@@ -1,0 +1,116 @@
+
+/*PARTE DA GIOVANNA
+login.html*/
+.container {
+    width: 85%;
+    height: auto;
+    background-color: rgba(0, 0, 0);
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    padding-bottom: .5rem;
+    border-radius: 30px;
+    padding-left: 40px;
+    text-align: center;
+    
+}
+
+#logo-login {
+    width: 40%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#personagem {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;
+    margin-left: auto;
+    margin-top: -3rem;
+}
+
+body{
+    font-family: 'Inter';
+    color: white;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(155, 155, 155);
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+
+.circle img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.user-jogos{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.user-jogos img{
+    width: 25rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.border-img{
+    width: 27rem;
+    height: 21rem;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.rating:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 50px;
+    color: #666;
+  }
+  
+  .rating:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .rating > input:checked + label:hover,
+  .rating > input:checked + label:hover ~ label,
+  .rating > input:checked ~ label:hover,
+  .rating > input:checked ~ label:hover ~ label,
+  .rating > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating > input:checked ~ label {
+    color: #ffa723;
+  }
+  
+  
+  
+  
+

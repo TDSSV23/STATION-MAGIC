@@ -39,21 +39,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Loja</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Categorias
             </a>
-            
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="./C-Ação.html">Ação</a></li>
               <li><a class="dropdown-item" href="./esportes.html">Esportes</a></li>
               <li><a class="dropdown-item" href="./estrategia.html">Estratégia</a></li>
               <li><a class="dropdown-item" href="./simulacao.html">Simulação</a></li>
           </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Loja</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sobre</a>
@@ -64,7 +63,8 @@
 
         </ul>
         <a href="./login.html">
-          <button class="d-flex btn-login">LOGIN</button></a>
+          <button class="d-flex btn-login">LOGIN</button>
+        </a>
       </div>
     </div>
   </nav>
@@ -75,31 +75,27 @@
     <img src="./image/mascote.png" id="personagem" alt="personagem">
     <h1 class="login">LOGIN</h1>
 <!-- FORMULÁRIO DE LOGIN -->
-    <form class="campo" action="./index.html">
+    <form class="campo" action="./user-accont.html">
       <h6 class="user">NOME DE USUÁRIO OU EMAIL:</h6>
       <input type="text" class="email" required>
+
       <h6 class="senha">SENHA:</h6>
       <input type="password" class="senha-conta" required>
-      <input class="botão" type="submit" value="ENTRAR">
-    <a href="cadastre-se.html">
+      <input href="./user-accont.html" class="botão" value="ENTRAR" type="submit">
+    
 <!-- LINK CADASTRO -->
     </form>
+    <a href="cadastre-se.html">
     <p>Ainda não possui uma conta?</p></a>
   </div>
 <!-- FOOTER -->
   <footer>
-    <!-- <p>Contato: (99) 99999 9999</p> -->
+    <p>Contato: (99) 99999 9999</p>
     <img src="./image/twitter.png" alt="twitter" class="logos"/>
     <img src="./image/facebook.png" alt="facebook" class="logos"/>
     <img src="./image/instagram.png" alt="instagram" class="logos"/>
     <img src="./image/youtube.png" alt="youtube" class="logos"/>
   </footer>
-
-  <style>
-    a{
-      text-decoration: none;
-    }
-  </style>
 </body>
 
 </html>
