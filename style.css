@@ -315,10 +315,9 @@ a{
     body {
         background-image: url(./image/fundo.jpg);
         background-repeat: no-repeat;
-        background-attachment: auto;
+        background-attachment: fixed;
         background-position: center;
         background-size: cover;
-        margin: 0px;
     
     }
 
