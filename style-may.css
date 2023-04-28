@@ -8,17 +8,17 @@
 
 .fifa-video {
     width: 50%;
-    height: 20rem;
+    height: 30rem;
     object-fit: cover;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .img-fifa {
-    width: 37%;
+    width: 34%;
     height: 20rem;
     object-fit: contain;
-    margin-top: -26px;
-    margin-left: 83px;
+    margin-top: -2px;
+    margin-left: 80px;
 }
 
 .midia {
@@ -34,12 +34,12 @@
     text-align: justify;
     color: white;
     float: right;
-    margin-right: 2rem;
-    width: 38%;
+    margin-right: 7rem;
+    width: 40%;
     font-size: 18px;
-    font-weight: 300;
-    margin-left: 83px;
-    margin-top: -170px;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-top: -155px;
 }
 
 h6 {
@@ -97,5 +97,6 @@ button:hover {
 }
 
 .but {
-    margin-left: 250px;
+    margin-left: 370px;
 }
+
