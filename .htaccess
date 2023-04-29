@@ -1,9 +1,16 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5c5f431 (Update .htaccess)
 
 RewriteEngine on
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME}\.html -f
+<<<<<<< HEAD
+    RewriteRule ^(.*)$ $1.html
+>>>>>>> parent of 5c5f431 (Update .htaccess)
+=======
     RewriteRule ^(.*)$ $1.html
 >>>>>>> parent of 5c5f431 (Update .htaccess)
