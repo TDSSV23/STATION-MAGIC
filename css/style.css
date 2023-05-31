@@ -3,7 +3,7 @@
 
 /* TUDO */
 
-.white {
+:root {
     --cor_w: white;
     --cor_txt_w: black;
 }
@@ -248,7 +248,7 @@ footer {
     text-align: center;
     padding: 1rem;
     padding-bottom: 0;
-    color: var(--cor_txt_w);
+    color: var(--cor_txt_b);
 }
 
 .footer {

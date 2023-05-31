@@ -92,16 +92,19 @@
     <button class="btn btn-outline-success" type="submit"><img src="../../image/icons8-lupa-64.png" alt=""></button>
   </form>
 
-<br>
-  <div class="container game-card" id="game-card">
+  <br>
+  <section class="game">
     <input type="button" value="Mayck" onclick="mayck()">
     <input type="button" value="Felipe" onclick="felipe()">
     <input type="button" value="Giovanna" onclick="gii()">
     <input type="button" value="Kyara" onclick="kyara()">
     <input type="button" value="Dagoani" onclick="dagoani()">
     <input type="button" value="Gratão" onclick="lucas()">
+  </section><br>
+  <div class="container game-card game" id="game-card">
+
   </div>
-  
+
   <footer>
     <img src="../../image/Logo_do_Site_-removebg-preview.png" alt="logo do site" class="logo"><br>
     <p>&copy;2023 Error 404 | Todos os Direitos Reservados</p>
@@ -131,26 +134,31 @@
   a {
     text-decoration: none;
   }
+
+  .game{
+    text-align: center;
+  }
 </style>
 
 <script>
-  function mayck(){
-    document.getElementById("game-card").innerHTML = "<iframe src='https://mayck-e.github.io/game1-jogo-da-velha/' frameborder='0' height='800' width='1000'></iframe>"
+  function mayck() {
+    document.getElementById("game-card").innerHTML = "<iframe src='https://mayck-e.github.io/game1-jogo-da-velha/' frameborder='0' height='600' width='1200'></iframe>"
   }
-  function lucas(){
-    document.getElementById("game-card").innerHTML = "<iframe src='https://lucasgrataope12.github.io/jogo-da-velha/' frameborder='0' height='800' width='1000'></iframe>"
+  function lucas() {
+    document.getElementById("game-card").innerHTML = "<iframe src='https://lucasgrataope12.github.io/jogo-da-velha/' frameborder='0' height='600' width='1200'></iframe>"
   }
-  function gii(){
-    document.getElementById("game-card").innerHTML = "<iframe src='https://giile.github.io/jogo_da_velha/' frameborder='0' height='800' width='1000'></iframe>"
+  function gii() {
+    document.getElementById("game-card").innerHTML = "<iframe src='https://giile.github.io/jogo_da_velha/' frameborder='0' height='680' width='1200'></iframe>"
   }
-  function kyara(){
-    document.getElementById("game-card").innerHTML = "<iframe src='https://kycimento.github.io/jogo_da_velha/' frameborder='0' height='800' width='1000'></iframe>"
+  function kyara() {
+    document.getElementById("game-card").innerHTML = "<iframe src='https://kycimento.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200'></iframe>"
   }
-  function dagoani(){
-    document.getElementById("game-card").innerHTML = "<iframe src='https://mdagoani.github.io/jogo_da_velha/' frameborder='0' height='800' width='1000'></iframe>"
+  function dagoani() {
+    document.getElementById("game-card").innerHTML = "<iframe src='https://mdagoani.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200'></iframe>"
   }
-  function felipe(){
-    document.getElementById("game-card").innerHTML = "<iframe src='https://felipehmazotti.github.io/jogo_da_velha/' frameborder='0' height='800' width='1000'></iframe>"
+  function felipe() {
+    document.getElementById("game-card").innerHTML = "<iframe src='https://felipehmazotti.github.io/jogo_da_velha/' frameborder='0' height='600' width='1200'></iframe>"
   }
 </script>
+
 </html>
