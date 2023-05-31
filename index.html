@@ -10,17 +10,16 @@
   <link rel="stylesheet" href="./css/bootstrap.css">
   <!-- LINK JS DO BOOTSTRAP -->
   <script src="./js/bootstrap.bundle.js"></script>
-  <!-- LINK ICONES DO GOOGLE -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- LINK JS -->
+  <script src="./js/script.js"></script>
   <!-- LINK ICONE DO SITE -->
   <link rel="icon" href="./image/Logo_do_Site2.ico">
   <!-- LINK DA FONTE 'Inter' -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
   <!-- LINK DO CSS PADRÃO -->
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <!--FONTE AWESOME-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -39,19 +38,30 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Loja</a>
-            </li>
+
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Categorias
+                Loja
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./C-Ação.html">Ação</a></li>
                 <li><a class="dropdown-item" href="./esportes.html">Esportes</a></li>
                 <li><a class="dropdown-item" href="./estrategia.html">Estratégia</a></li>
                 <li><a class="dropdown-item" href="./simulacao.html">Simulação</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown" href="./game-online.html">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Jogue Agora
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ação</a></li>
+                <li><a class="dropdown-item" href="#">Esportes</a></li>
+                <li><a class="dropdown-item" href="#">Estratégia</a></li>
+                <li><a class="dropdown-item" href="#">Simulação</a></li>
+                <li><a class="dropdown-item" href="./game-online.html">Todos</a></li>
               </ul>
             </li>
 
@@ -63,6 +73,10 @@
             </li>
 
           </ul>
+          <label class="switch">
+            <input type="checkbox" id="ligth-dark" onclick="on_off()">
+            <span class="slider"></span>
+          </label>
           <a href="./login.html">
             <button class="d-flex btn-login">LOGIN</button>
           </a>
@@ -191,7 +205,7 @@
     <h1 class="titulo">Mais Polurares</h1>
     <div class="container">
       <div class="card-modelo">
-        <a href="#">
+        <a href="./games/lego batman.html">
           <img src="image/LEGO-Batman-Card.jpg" alt="">
           <figcaption>
             <p>JOGO BASE</p>
@@ -300,15 +314,16 @@
       </div>
       <div class="card-modelo">
         <a href="#">
-        <img src="image/Nagaka_card.png" alt="">
+          <img src="image/Nagaka_card.png" alt="">
 
-        <figcaption>
-          <p>JOGO BASE</p>
-          <h4>NARAKA: BLADEPOINT</h4>
-          <div class="preco">
-            <p class="flex_preco">R$ 89,99</p>
-          </div>
-        </figcaption></a>
+          <figcaption>
+            <p>JOGO BASE</p>
+            <h4>NARAKA: BLADEPOINT</h4>
+            <div class="preco">
+              <p class="flex_preco">R$ 89,99</p>
+            </div>
+          </figcaption>
+        </a>
 
 
       </div>
@@ -317,35 +332,29 @@
 
   <!-- FOOTER -->
   <footer>
-    <img src="./image/Logo_do_Site_-removebg-preview.png" alt="logo do site"
-class="logo"><br>
+    <img src="./image/Logo_do_Site_-removebg-preview.png" alt="logo do site" class="logo"><br>
     <p>&copy;2023 Error 404 | Todos os Direitos Reservados</p>
     <div class="footer">
       <div class="linha">
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
-      <a href="#"><i class="fa fa-youtube"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
       </div>
-      
+
       <div class="linha">
-      <ul>
-      <li><a href="suporte.html">Contate-nos</a></li>
-      <li><a href="https://discord.gg/PxFSvTTBH8">Entre no discord</a></li>
-      <li><a href="./user-accont.html">Sua conta</a></li>
-      </ul>
+        <ul>
+          <li><a href="suporte.html">Contate-nos</a></li>
+          <li><a href="https://discord.gg/PxFSvTTBH8">Entre no discord</a></li>
+          <li><a href="./user-accont.html">Sua conta</a></li>
+        </ul>
       </div>
-      
+
       <div class="row">
-      Error 404 Copyright © 2023 - Todos os Direitos Reservados || #SENAI 
+        Error 404 Copyright © 2023 - Todos os Direitos Reservados || #SENAI
       </div>
-      </div>
+    </div>
   </footer>
 </body>
-<style>
-  a {
-    text-decoration: none;
-  }
-</style>
 
 </html>

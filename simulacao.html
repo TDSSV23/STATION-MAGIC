@@ -10,7 +10,7 @@
     <script src="./js/bootstrap.bundle.js"></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./image/Logo_do_Site2.ico">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
       <!--FONTE AWESOME-->
@@ -19,51 +19,63 @@
 
 <body>
 
-    <header class="barra"> <!-- MENU NAV FIXO -->
-    
-        <!-- MENU NAV - BOOTSTRAP -->
-        <nav class="navbar navbar-expand-lg --bs-secondary-bg " data-bs-theme="dark">
-          <div class="container-fluid">
-            <a href="./index.html"><img src="./image/Logo_do_Site_-removebg-preview.png" alt="logo do site"
-                class="logo"></a>
-    
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="./index.html">Loja</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Categorias
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./C-Ação.html">Ação</a></li>
-                    <li><a class="dropdown-item" href="./esportes.html">Esportes</a></li>
-                    <li><a class="dropdown-item" href="./estrategia.html">Estratégia</a></li>
-                    <li><a class="dropdown-item" href="./simulacao.html">Simulação</a></li>
-                </ul>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="./user-accont.html">Minha Conta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./suporte.html">Suporte</a>
-                </li>
-    
-              </ul>
-              <a href="./login.html">
-                <button class="d-flex btn-login">LOGIN</button>
+  <header class="barra"> <!-- MENU NAV FIXO -->
+
+    <!-- MENU NAV - BOOTSTRAP -->
+    <nav class="navbar navbar-expand-lg --bs-secondary-bg " data-bs-theme="dark">
+      <div class="container-fluid">
+        <a href="./index.html"><img src="./image/Logo_do_Site_-removebg-preview.png" alt="logo do site"
+            class="logo"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Loja
               </a>
-            </div>
-          </div>
-        </nav>
-      </header>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./C-Ação.html">Ação</a></li>
+                <li><a class="dropdown-item" href="./esportes.html">Esportes</a></li>
+                <li><a class="dropdown-item" href="./estrategia.html">Estratégia</a></li>
+                <li><a class="dropdown-item" href="./simulacao.html">Simulação</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown" href="./game-online.html">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Jogue Agora
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ação</a></li>
+                <li><a class="dropdown-item" href="#">Esportes</a></li>
+                <li><a class="dropdown-item" href="#">Estratégia</a></li>
+                <li><a class="dropdown-item" href="#">Simulação</a></li>
+                <li><a class="dropdown-item" href="./game-online.html">Todos</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./user-accont.html">Minha Conta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./suporte.html">Suporte</a>
+            </li>
+
+          </ul>
+          <a href="./login.html">
+            <button class="d-flex btn-login">LOGIN</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
     
       <!-- PESQUISA -->
       <form class="d-flex pesquisa" role="search">
