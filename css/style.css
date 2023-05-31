@@ -471,7 +471,7 @@ input:checked+.slider::after {
 }
 
 .white a:active{
-    color: gray;
+    color: rgb(21, 21, 21);
 }
 
 .white nav {
@@ -543,25 +543,25 @@ h5 {
     color: white;
 }
 
-.footer {
+.white .footer {
     color: rgb(97, 97, 97);
 }
 
-.footer .linha {
+.white .footer .linha {
     color: gray;
 }
 
-.footer .linha a {
+.white .footer .linha a {
     color: gray;
 }
 
-.footer .linha a:hover {
-    color: #fff;
+.white .footer .linha a:hover {
+    color: #303030;
 }
 
 
 .white .slider {
-    border: #000000 1px solid;
+    border: #ffffff 1px solid;
 }
 
 
