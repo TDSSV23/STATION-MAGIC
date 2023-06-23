@@ -207,7 +207,7 @@ h5 {
 }
 
 .titulo {
-    color: var(--cor_w);
+    color: var(--cor_txt_b);
     font-family: Inter;
     margin-left: 6rem;
     text-transform: uppercase;
@@ -525,13 +525,10 @@ h5 {
 }
 
 .white .card-modelo figcaption {
-    color: white;
-}
-
-.titulo {
     color: var(--cor_txt_w);
-
 }
+
+
 
 /*PARTE FELIPE*/
 
